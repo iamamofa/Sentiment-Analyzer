@@ -72,7 +72,7 @@ def training_step(data,vectorizer):
 training_data,evaluation_data = preprocessing_step()
 from sklearn.feature_extraction.text import CountVectorizer
 
-# Correct usage
+# Correct usage of the data started 
 vectorizer = CountVectorizer(binary=True)
 classifier = training_step(training_data,vectorizer)
 
