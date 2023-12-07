@@ -90,3 +90,13 @@ if st.button('Predict Sentiment'):
     st.success(result[1])
 else:
     st.write("Press the above button..")
+
+
+
+
+
+
+# Data move 
+
+
+# data GET
